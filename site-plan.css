@@ -3,8 +3,8 @@
 :root {
   --primary-color: #0F85E6;
   --secondary-color: #363732;
-  --accent1-color: #020887;
-  --accent2-color:#dce1e9;
+  --accent1-color:#dce1e9;
+  --accent2-color:#020887;
   --heading-font: "Montserrat";
   --paragraph-font: "Lora", Helvetica, sans-serif
 }
@@ -26,23 +26,23 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color:
+  color: var(--secondary-color)
 }
 
 header {
   padding: 1em;
   text-align: center;
   color: var(--accent2-color);
-  background-color:
+  background-color: var(--accent1-color)
 }
 
 header>h1 {
-  color:
+  color: var(--secondary-color)
 }
 
 p {
   font-family: var(--paragraph-font);
-  color: ;
+  color:var(--accent1-color) ;
   padding: 1em
 }
 
@@ -97,10 +97,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-  color:
+  color: yellow
 }
 
 nav a:hover {
   color: ;
-  background-color:
+  background-color: var(--accent2-color)
 }
