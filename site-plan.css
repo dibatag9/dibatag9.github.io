@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&display=swap');
 
 :root {
-  --primary-color: #0F85E6;
-  --secondary-color: #363732;
-  --accent1-color:#dce1e9;
-  --accent2-color:#020887;
+  --primary-color: #FF9F1C;
+  --secondary-color: #ffffff;
+  --accent1-color:#2bb6ac;
+  --accent2-color:#FFBF69;
   --heading-font: "font-family: 'Montserrat', sans-serif";
   --paragraph-font: "font-family: 'Lora', serif;"
 }
