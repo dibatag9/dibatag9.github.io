@@ -3,19 +3,31 @@
 html {
   background-color:#00bfbf;
 }
+
+header, footer {
+  color: #4C5198;
+  background-color:  #FF9F1C;
+}
 header, main, footer {
   max-width: 960px;
   margin: 0 auto;
 }
 body {
+  color: #4C5198;
   background-color: #ffffff;
+
 }
 li {
   display: inline;
 }
-header, footer {
+
+.home, .family-history {
   color: #ffffff;
-  background-color:#4c5198;
+  background-color: #00BFBF;
+}
+
+.wedding {
+  background-color: #FF9F1C ;
 }
 
 a:link {
