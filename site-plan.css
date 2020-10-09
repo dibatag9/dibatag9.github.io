@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@100&display=swap');
 
 :root {
-  --primary-color:#00BFBF;
-  --secondary-color:#ffffff;
-  --accent1-color:#4C5198;
-  --accent2-color:#FF9F1C;
+  --primary-color:#2592f8;
+  --secondary-color:#c4e1fd;
+  --accent1-color:#000000;
+  --accent2-color:#ffffff;
   --heading-font: "font-family: 'Montserrat', sans-serif";
   --paragraph-font: "font-family: 'Lora', serif;"
 }
@@ -26,8 +26,9 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--secondary-color)
+  color: var(--primary-color)
 }
+
 
 header {
   padding: 1em;

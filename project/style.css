@@ -1,34 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
 
 html {
-  background-color:#00bfbf;
+  background-color:#2592f8;
+}
+
+body {
+  color: #2592f8;
+  background-color: #c4e1fd;
 }
 
 header, footer {
-  color: #4C5198;
-  background-color:  #FF9F1C;
+  background-color:#2592f8;
+  color: white;
 }
+
 header, main, footer {
   max-width: 960px;
   margin: 0 auto;
 }
-body {
-  color: #4C5198;
-  background-color: #ffffff;
 
+h1 {
+  color: white;
+} 
+
+h2, h3, h4, h5, h6 {
+  color: #2592f8;
 }
+
 li {
   display: inline;
 }
 
-.home, .family-history {
-  color: #ffffff;
-  background-color: #00BFBF;
+.home {
+  color:black;
+  background-color: #ffffff;
 }
 
 .wedding {
-  background-color: #FF9F1C ;
+  color: black;
+  background-color: #ffffff;
 }
+
+.family-history {
+  color: black;
+  background-color: #ffffff;
+}
+
+.contact {
+  color:white;
+}
+
 
 a:link {
   color: #ffffff;
