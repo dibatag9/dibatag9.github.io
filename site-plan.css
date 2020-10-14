@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
 :root {
-  --primary-color:#2592f8;
-  --secondary-color:#c4e1fd;
-  --accent1-color:#000000;
-  --accent2-color:#ffffff;
+  --primary-color:#ff9f1c;
+  --secondary-color:#ffffff;
+  --accent1-color:#00bfbf;
+  --accent2-color:#7a4500;
   --heading-font: "font-family: Montserrat, sans-serif";
-  --paragraph-font: "font-family: "Open-Sans", sans-serif;"
+  --paragraph-font: "font-family: 'Open Sans', sans-serif;"
 }
 
 html {

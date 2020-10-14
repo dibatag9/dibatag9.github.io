@@ -1,17 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
-html {
-  background-color:#2592f8;
-}
-
-body {
-  color: #2592f8;
-  background-color: #c4e1fd;
-}
-
-header, footer {
-  background-color:#2592f8;
-  color: white;
+:root {
+  --primary-color:#ff9f1c;
+  --secondary-color:#ffffff;
+  --accent1-color:#00bfbf;
+  --accent2-color:#7a4500;
+  --heading-font: 'Montserrat', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
 }
 
 header, main, footer {
@@ -19,32 +14,85 @@ header, main, footer {
   margin: 0 auto;
 }
 
+html {
+  background-color: #ff9f1c;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #7a4500;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  "font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+header, footer {
+  background-color: #00bfbf;
+  color:#ffffff;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.logo{
+  display: flex;
+}
+.headings {
+  padding: 5px 0;
+  
+}
+
+.navigation{
+  display: flex;
+  align-content: center;
+  
+  justify-content: left;
+ }
+
+ p {"font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+
+
+
+
+header img {
+  width: 80px;
+  height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.headings h1 {
+	font-size: 1.6rem;
+	margin: 0 0 0 17px;
+}
+
+header nav ul {
+  display: flex;
+}
+
+
+
 h1 {
-  color: white;
+  color: #ffffff;
 } 
 
 h2, h3, h4, h5, h6 {
-  color: #2592f8;
+  color: #00bfbf;
 }
 
 li {
   display: inline;
 }
 
-.home {
-  color:black;
-  background-color: #ffffff;
-}
-
-.wedding {
-  color: black;
-  background-color: #ffffff;
-}
-
-.family-history {
-  color: black;
-  background-color: #ffffff;
-}
 
 .contact {
   color:white;
