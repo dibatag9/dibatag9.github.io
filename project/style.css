@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
 
-:root {
-  --primary-color:#ff9f1c;
-  --secondary-color:#ffffff;
-  --accent1-color:#00bfbf;
-  --accent2-color:#7a4500;
-  --heading-font: 'Montserrat', sans-serif;
-  --paragraph-font: 'Open Sans', sans-serif;
-}
 
 header, main, footer {
   max-width: 960px;
@@ -24,39 +16,44 @@ body {
   background-color: #ffffff;
   padding: 0;
   margin: 0;
+  font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
-  "font-family: "Montserrat", Helvetica, sans-serif;
+  font-family: "Montserrat", Helvetica, sans-serif;
 }
 
-header, footer {
+header {
   background-color: #00bfbf;
   color:#ffffff;
-}
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-.logo{
-  display: flex;
-}
-.headings {
   padding: 5px 0;
-  
+	display: flex;
+	align-items:center;
+	justify-content:space-around;
 }
 
-.navigation{
-  display: flex;
-  align-content: center;
-  
-  justify-content: left;
+ nav {
+   line-height: 4em;
+   text-align: center;
  }
 
- p {"font-family: 'Open Sans', Helvetica, sans-serif;
+nav ul {
+  display: flex;
+}
+  
+  
+nav ul li {
+  flex: 1 1 auto; /* children work together*/
+  padding: 10px;
+  margin: 2px;
 }
 
+ p {
+   font-family: 'Open Sans', Helvetica, sans-serif;
+}
 
+footer {
+  background-color: #00bfbf;
+  color:#ffffff;
 
 
 
