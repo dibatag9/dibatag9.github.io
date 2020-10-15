@@ -31,6 +31,9 @@ header {
 	justify-content:space-around;
 }
 
+header h1 {
+  margin-left: -40px;
+}
  nav {
    line-height: 4em;
    text-align: center;
