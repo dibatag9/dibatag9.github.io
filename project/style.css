@@ -6,34 +6,42 @@ header, main, footer {
   margin: 0 auto;
 }
 
-html {
-  background-color: #ff9f1c;
-}
 
 body {
   font-family: 'Open Sans', Helvetica, sans-serif;
   color: #7a4500;
-  background-color: #ffffff;
+  background-color:#F8F8F8;
   padding: 0;
   margin: 0;
   font-size: 16px;
+  line-height: 1.6;
 }
+
 h1, h2, h3, h4, h5, h6 {
+  color: #00bfbf;
   font-family: "Montserrat", Helvetica, sans-serif;
 }
 
 header {
   background-color: #00bfbf;
-  color:#ffffff;
+  color:#F8F8F8;
   padding: 5px 0;
 	display: flex;
 	align-items:center;
-	justify-content:space-around;
+  justify-content:space-around;
+}
+
+header img {
+  width: 80px;
+  height: auto;
 }
 
 header h1 {
-  margin-left: -40px;
+  margin-left: -65px;
+  color: #F8F8F8;
+  font-size: 2rem;
 }
+
  nav {
    line-height: 4em;
    text-align: center;
@@ -44,65 +52,49 @@ nav ul {
   list-style: none;
   padding: 0;
 }
-  
-  
+
 nav ul li {
   flex: 1 1 auto; /* children work together*/
   padding: 10px;
   margin: 2px;
 }
 
- p {
-   font-family: 'Open Sans', Helvetica, sans-serif;
+a:link {
+  color: #F8F8F8;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ff9f1c;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 1.75px 60px ;
+  background-color: #F8F8F8;
+}
+
+.home, .wedding, .family-history {
+  text-align: justify;
 }
 
 footer {
   background-color: #00bfbf;
-  color:#ffffff;
+  color: #F8F8F8;
+  padding: 15px;
+ }
 
-
-
-header img {
-  width: 80px;
-  height: auto;
+.contact-info {
+  font-size: .9rem;
+    padding: 0 0 0 150px;
 }
 
-.headings {
-	display: flex;
-	flex-direction: column;
-}
-
-.headings h1 {
-	font-size: 1.6rem;
-	margin: 0 0 0 17px;
-}
-
-header nav ul {
-  display: flex;
-}
-
-
-
-h1 {
-  color: #ffffff;
-} 
-
-h2, h3, h4, h5, h6 {
-  color: #00bfbf;
-}
-
-li {
-  display: inline;
-}
-
-
-.contact {
-  color:white;
-}
-
-
-a:link {
-  color: #ffffff;
-  background-color: transparent;
-  text-decoration: none;
+.copyright {
+  font-size: .75rem;
+  text-align: center;
 }
