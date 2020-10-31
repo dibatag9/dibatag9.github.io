@@ -69,6 +69,11 @@ a:link {
   text-decoration: none;
 }
 
+.hero img {
+  max-width: 960px;
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   color: #ff9f1c;
 }
@@ -81,10 +86,20 @@ h2 {
 section {
   padding: 1.75px 60px ;
   background-color: #F8F8F8;
+  display: flex;
 }
 
 .home, .wedding, .family-history {
   text-align: justify;
+}
+.home img {
+  float: right;
+ padding-right: 10px;
+}
+
+.home img {
+  position: absolute;
+  right: 0;
 }
 
 footer {
