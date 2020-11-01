@@ -43,12 +43,12 @@ header {
 }
 
 header img {
-  width: 60px;
-  height: auto;
+  width: 80px;
+  
   margin: 5px 0 0 15px;
-  padding-left: 15px;
-
+  padding-left: 10px;
 }
+
 
 header h1 {
   flex-direction: column;
@@ -75,30 +75,79 @@ nav ul li {
   margin: 2px;
 }
 
- nav a:link {
+ a:link {
   color: #fff8f0;
   background-color: transparent;
   text-decoration: none;
 }
 
-
-
- nav a:hover {
+ a:hover {
   background: #fff8f0;
   color: #4f10bc;
   font-size: 100%;
 }
 
+a:active {
+  text-decoration: underline;
+}
 
 
 
 /* main*/
 
 
+
+button {
+  color: #000000;
+  font-weight: bold;
+  border: solid 3px #fff8f0;
+  line-height: 2em;
+   width: 10em;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding: 10px;
+}
+.action {
+  background-color: rgba(79, 16, 188, 0.8);
+  margin: 1em 3em;
+  padding: 1em;
+  text-align: center;
+}
+
+.banner-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.banner-box img {
+  grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
+  grid-row: 1;
+}
+  
+.action {
+  grid-column: 1;
+  grid-row: 1;
+  background-color: rgba(240, 240, 240, 0.8);
+  margin: 1em 3em;
+  padding: 5px;
+  text-align: center;
+}
+  
+.action button {
+  line-height: 2em;
+  width: 10em;
+  color: #fff8f0;
+  background-color: #4f10bc;
+  font-size: 1.2em;
+}
+
+
+
 h2 {
   text-align: center;
   font-size: 1.4em;
   text-decoration: underline;
+  border-top: 5px dotted;
+  
 }
 
 section {
@@ -143,11 +192,17 @@ main p {
   grid-column: 2/3;
   }
 
+  
+ .img1, .img2 {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #999;
+}
+
 
 .wedding {
   display: grid;
-  grid-template-rows: 75px 1fr;
-
+  grid-template-rows: 50px 1fr;
 }
 
 .wedding h2 {
@@ -156,6 +211,7 @@ main p {
 
 .wedding p {
   grid-row: 4;
+  
 }
 
 
