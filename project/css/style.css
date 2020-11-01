@@ -261,3 +261,10 @@ main p {
   font-size: .95rem;
   text-align:  bottom
 }
+
+@media all and (max-width: 550px) {
+  .wrapper  {
+    display: block;
+  }
+   
+}
