@@ -24,9 +24,9 @@ img {
   max-width: 100%
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--primary-color)
+  color: #474747
 }
 
 header {
@@ -34,10 +34,6 @@ header {
   text-align: center;
   color: #fff8f0;
   background-color: var(--accent1-color)
-}
-
-header>h1 {
-  color: #
 }
 
 p {
