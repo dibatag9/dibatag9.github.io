@@ -38,12 +38,12 @@ header {
 }
 
 header>h1 {
-  color: var(--primary-color)
+  color: #
 }
 
 p {
   font-family: var(--paragraph-font);
-  color:var(--accent1-color) ;
+  color: var(--accent1-color);
   padding: 1em
 }
 
