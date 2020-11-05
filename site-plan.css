@@ -29,7 +29,6 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color)
 }
 
-
 header {
   padding: 1em;
   text-align: center;
@@ -39,6 +38,10 @@ header {
 
 header>h1 {
   color: #
+}
+
+.signature {
+  color: #fff8f0;
 }
 
 p {
