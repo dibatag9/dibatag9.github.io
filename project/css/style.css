@@ -200,7 +200,7 @@ main p {
 
 .img1,
 .img2 {
-  border: 1px solid #ccc;
+  border: 1px solid #4f10bc;
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
 }
@@ -269,7 +269,7 @@ footer div {
 }
 
 @media all and (max-width: 550px) {
-  .wrapper {
+  .wrapper, .wrapper2 {
     display: block;
   }
 
