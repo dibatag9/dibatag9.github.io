@@ -24,12 +24,7 @@ img {
   max-width: 100%
 }
 
-h1 {
-  font-family: var(--heading-font);
-  color: #fff8f0
-}
-
- h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color)
 }
@@ -43,7 +38,7 @@ header {
 }
 
 header>h1 {
-  color: var(--secondary-color)
+  color: var(--primary-color)
 }
 
 p {
