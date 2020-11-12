@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <title>My test page</title>
+  <style>
+    form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, 
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus, 
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+
+    #feedback {
+      ...
+      /* add styling and layout properties of your own design here as needed */
+      display: none;
+      
+      form {
+        background: yellow;
+      }
+
+      ul {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+
+      input,
+      text area {
+        padding: 5px 10px;
+        border: 1px solid aqua;
+      }
+
+      button {
+        color: #008f79;
+      background: white;
+      }
+      /* we will make the element invisible until the form is submitted successfully */
+    }
+  </style>
+</head>
+
+<body>
+  <p>This is my page</p>
+
+  <div id="feedback"></div>
+
+  <form action="/my-handling-form-page" method="post">
+    <!-- form element, formally defines a form. Always set the action and method attributes-->
+    <!-- action attribute defines the location (url) where the form's collected data should be sent when it's submitted.-->
+    <!-- method attribute defines which HTTP method to send the data with (get or post)-->
+    <ul>
+      <li>
+        <!-- to conveniently structure the code and make stying easier-->
+        <label for="name">Name:</label>
+        <!--input field is single-line text field-->
+        <!-- for attribute on all label elements is how you associate a form control with its label-->
+        <!-- Note the use of the for attribute on all <label> elements, which takes as its value the id of the form control with which it is associated 
+                — this is how you associate a form control with its label. -->
+        <input type="text" id="name" name="user_name">
+        <!-- On the <input> element, the most important attribute is the type attribute.
+                This attribute is extremely important because it defines the way the <input> element appears and behaves. -->
+      </li>
+      <li>
+        <label for="mail">E-mail:</label>
+        <!--input field for email is single-line text field that only accepts email addresses-->
+        <input type="email" id="mail" name="user_email">
+      </li>
+      <li>
+        <label for="msg">Message:</label>
+        <!--input field for message is a <textarea> which is multiline-->
+        <textarea id="msg" name="user_message"></textarea>
+      </li>
+      <li class="button">
+        <button type="submit">Send your message</button>
+      </li>
+    </ul>
+  </form>
+  <script>
+    // get the feedback div element so we can do something with it.
+    const feedbackElement = document.getElementById('feedback');
+    // get the form element so we can read what was entered in it.
+    const formElement = document.forms[0];
+    
+    // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+    formElement.addEventListener('submit', function(e) {
+      // stop the form from doing the default action
+      e.preventDefault();
+      // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+      feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+      // make the feedback element visible.
+      feedbackElement.style.display = "block";
+    });
+  </script>
+</body>
+
+</html>
