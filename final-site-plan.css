@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans&display=swap');
 
 :root {
-  --primary-color: #396E94;
-  --secondary-color: #E7C24F;
-  --accent1-color: #A43312;
-  --accent2-color: white;
-  --heading-font: "IM Fell French Canon SC";
-  --paragraph-font: Lato, Helvetica, sans-serif
+  --primary-color: #291600;
+  --secondary-color: #fce3b0;
+  --accent1-color: #B8CCA3;
+  --accent2-color: black;
+  --heading-font: 'Josefin Sans', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
 }
 
 html {
@@ -31,24 +31,29 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
-  color:
+  color: #000000;
 }
 
 header {
   padding: 1em;
   text-align: center;
   color: var(--accent2-color);
-  background-color:
+  background-color: #B8CCA3;
 }
 
 header>h1 {
-  color:
+  color: #000000;
 }
 
 p {
   font-family: var(--paragraph-font);
-  color: ;
+  color: #291600;
   padding: 1em
+}
+
+.colored {
+  color: #B8CCA3;
+  font-weight: bold;
 }
 
 .colors {
