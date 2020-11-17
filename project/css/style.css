@@ -230,6 +230,7 @@ wedding {
 .wrapperamen {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  
   grid-row: auto;
   grid-gap: 10px;
   place-items: center;
@@ -239,29 +240,25 @@ wedding {
   margin: 10px 0;
 }
 
-.special {
-  display: grid;
-  grid-template-rows: 50px 1fr;
-}
+
 
 .play {
-  grid-row: 1;
+ grid-column: 1;
+ grid-row: 1;
 }
 
 .service {
+  grid-column: 2;
   grid-row: 1;
 }
 
-.free {
-  display: grid;
-  grid-template-rows: 50px 1fr;
-}
-
 .food {
+  grid-column: 1;
   grid-row: 2;
 }
 
 .amen {
+  grid-column: 2;
   grid-row: 2;
 } 
 
