@@ -322,10 +322,9 @@ label {
 
 input,
 textarea {
-  font: 1em;
   width: 500px;
   box-sizing: border-box;
-  border: 1px solid #4f10bc;
+  border: 1.5px solid #4f10bc;
   padding: 5px 10px;
 }
 
