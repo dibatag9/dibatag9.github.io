@@ -98,8 +98,7 @@ a:hover {
 
 /* main*/
 
-
-
+/*call to action*/
 button {
   color: #000000;
   font-weight: bold;
@@ -169,8 +168,7 @@ main p {
 
 /*home page*/
 
-.wrapper
- {
+.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row: auto;
@@ -201,7 +199,7 @@ main p {
 
 .img1,
 .img2,
-{
+  {
   border: 1px solid #4f10bc;
   padding: 10px;
   box-shadow: 5px 5px 5px #999;
@@ -214,7 +212,7 @@ wedding {
 
 .wedding h2 {
   grid-row: 3;
- }
+}
 
 .wedding p {
   grid-row: 4;
@@ -227,10 +225,49 @@ wedding {
 }
 
 /*amenities page*/
-.wrapperamen {
+.wrapper-amen {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
+  grid-gap: 15px;
+  place-items: center;
+  padding: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  margin: 10px 0;
+}
+
+.play {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.service {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
+.food {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.amen {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.food,
+.play {
+  border: 1px solid #4f10bc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
+}
+
+/*Temple Spotlight*/
+
+.wrapper-spot {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-row: auto;
   grid-gap: 10px;
   place-items: center;
@@ -240,36 +277,25 @@ wedding {
   margin: 10px 0;
 }
 
+.logan {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 50%;
+  border: 1px solid #4f10bc;
+  padding: 10px;
+  box-shadow: 5px 5px 5px #999;
 
-
-.play {
- grid-column: 1;
- grid-row: 1;
 }
 
-.service {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.food {
+.history {
   grid-column: 1;
   grid-row: 2;
 }
 
-.amen {
+.info {
   grid-column: 2;
   grid-row: 2;
-} 
-
-.food,
-.play 
-{
-  border: 1px solid #4f10bc;
-  padding: 10px;
-  box-shadow: 5px 5px 5px #999;
 }
-
 
 /*footer*/
 .wrapper2 {
@@ -318,7 +344,9 @@ footer div {
 /*media query*/
 
 @media all and (max-width: 550px) {
-  .wrapper, .wrapper2 {
+
+  .wrapper,
+  .wrapper2 {
     display: block;
   }
 
