@@ -81,7 +81,7 @@ a:visited {
   color:lightgreen;
 }
 
-a:hover {
+nav ul li a:hover {
   background: #fff8f0;
   color: #4f10bc;
   font-size: 100%;
