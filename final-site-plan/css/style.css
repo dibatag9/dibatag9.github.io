@@ -24,12 +24,7 @@ img {
   max-width: 100%
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: #000000;
 }
@@ -76,6 +71,11 @@ p {
   background-color: var(--primary-color)
 }
 
+td.primary,
+td.accent2 {
+  color: #ffffff;
+}
+
 .secondary {
   background-color: var(--secondary-color)
 }
@@ -113,4 +113,9 @@ nav a:visited {
 nav a:hover {
   color: ;
   background-color:
+}
+
+footer {
+  background: #B8CCA3;
+  text-align: center;
 }
