@@ -124,7 +124,7 @@ button {
   grid-row: 1;
   background-color: rgba(240, 240, 240, 0.8);
   margin: 1em 3em;
-  padding: 5px;
+  padding: 1em;
   text-align: center;
 }
 
