@@ -23,15 +23,18 @@ h6 {
   color: #000000;
 }
 
-p {
+p, li {
   font-family: 'Raleway', sans-serif;
   color: #291600;
 }
 
 h2 {
   font-family: 'Shadows Into Light', sans-serif;
-  text-align: center;
   font-size: 54px;
+  text-align: center;
+  color: #B8CCA3;
+  margin: 10px 0px;
+  font-family: 'Shadows Into Light', sans-serif;
 }
 
 /*header*/
@@ -71,13 +74,6 @@ a:hover {
 }
 
 
-.intro h2 {
-  font-size: 54px;
-  text-align: center;
-  color: #B8CCA3;
-  margin: 10px 0px;
-  font-family: 'Shadows Into Light', sans-serif;
-}
 
 .logo {
   display: block;
