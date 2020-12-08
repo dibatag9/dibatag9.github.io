@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light&display=swap');
+
+header,
+main,
+footer {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+html {
+  background-color: white;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Shadows Into Light Two', sans-serif;
+  color: #000000;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #291600;
+}
+
+h2 {
+  text-align: center;
+  font-size: 54px;
+}
+
+/*header*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B8CCA3;
+}
+
+li {
+  text-align: center;
+
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:visited {
+  color: #291600
+}
+
+a:hover {
+  color: #B8CCA3;
+  background: #000000;
+  font-size: 125%;
+}
+
+
+.intro h2 {
+  font-size: 54px;
+  text-align: center;
+  color: #B8CCA3;
+  margin: 10px 0px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+}
+
+/*main*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-top: 10px;
+}
+
+.time,
+.idea,
+.delivery {
+  width: 300px;
+  border: 4px solid transparent;
+  background-color: #ffffff;
+}
+
+.time {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.idea {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.delivery {
+  grid-column: 3/4;
+  grid-row: 1;
+}
+
+article img {
+  max-width: 100%;
+}
+
+article h3 {
+  font-size: 36px;
+  text-align: center;
+  margin: 5px 0;
+}
+
+article p {
+  margin-bottom: 5px;
+}
+
+article ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+
+article ul li,
+p {
+
+  font-family: "Raleway"sans-serif;
+  font-size: 20px;
+  color: #291600;
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  background-color: #B8CCA3;
+}
+
+.soc-med {
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+
+.copyright {
+  text-align: center;
+  font-size: .75rem;
+  padding-bottom: 10px;
+}

@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light+Two&display=swap');
 
 :root {
   --primary-color: #291600;
   --secondary-color: #fce3b0;
   --accent1-color: #B8CCA3;
   --accent2-color: black;
-  --heading-font: 'Josefin Sans', sans-serif;
-  --paragraph-font: 'Open Sans', sans-serif;
+  --heading-font: 'Shadows Into Light', cursive;
+  --paragraph-font: 'Raleway', sans-serif;
 }
 
 html {
@@ -89,7 +89,7 @@ td.accent2 {
 }
 
 nav {
-  background-color: ;
+  background-color:var(--accent1-color) ;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em
