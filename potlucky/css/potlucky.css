@@ -7,6 +7,10 @@ footer {
   margin: 0 auto;
 }
 
+header, footer {
+  border: 1px solid #291600;
+}
+
 html {
   background-color: white;
 }
@@ -20,36 +24,50 @@ h4,
 h5,
 h6 {
   font-family: 'Shadows Into Light', sans-serif;
-  color: #000000;
+  text-align: center;
 }
 
 p, li {
   font-family: 'Raleway', sans-serif;
   color: #291600;
+  font-size: 16px;
 }
 
-h2 {
+h1 {
   font-family: 'Shadows Into Light', sans-serif;
-  font-size: 54px;
-  text-align: center;
+  font-size: 56px;
   color: #B8CCA3;
   margin: 10px 0px;
   text-shadow:1px 1px gray;
 }
 
+h2 {
+  font-size: 48px;
+  text-align: center;
+  margin: 5px 0 0 0;
+
+}
+
+h3 {
+  font-size: 36px;
+  color: #291600;
+  padding: 0px;
+}
 /*header*/
 
 nav ul {
   list-style-type: none;
+  display: block;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #B8CCA3;
+  
 }
 
 li {
   text-align: center;
-
+ 
 }
 
 nav ul li a {
@@ -119,11 +137,6 @@ article img {
   max-width: 100%;
 }
 
-article h3 {
-  font-size: 36px;
-  text-align: center;
-  margin: 5px 0;
-}
 
 article p {
   margin-bottom: 5px;
@@ -147,6 +160,7 @@ p {
 /*footer*/
 footer {
   background-color: #B8CCA3;
+  margin-top: 5px;;
 }
 
 .site {
