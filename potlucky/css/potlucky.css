@@ -51,6 +51,7 @@ li {
 nav ul li a {
   display: block;
   color: white;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   padding: 16px;
   background-color: transparent;
