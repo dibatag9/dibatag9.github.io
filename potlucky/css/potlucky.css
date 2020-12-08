@@ -34,7 +34,7 @@ h2 {
   text-align: center;
   color: #B8CCA3;
   margin: 10px 0px;
-  font-family: 'Shadows Into Light', sans-serif;
+  text-shadow:1px 1px gray;
 }
 
 /*header*/
@@ -138,8 +138,7 @@ article ul {
 
 article ul li,
 p {
-
-  font-family: "Raleway" sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   color: #291600;
   text-align: center;
@@ -151,7 +150,7 @@ footer {
 }
 
 .site {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-align: center;
   font-size: 16px;
   padding-top: 5px;
