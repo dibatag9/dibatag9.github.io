@@ -74,6 +74,7 @@ a:hover {
   text-align: center;
   color: #B8CCA3;
   margin: 10px 0px;
+  font-family: 'Shadows Into Light Two', sans-serif;
 }
 
 .logo {
@@ -149,6 +150,13 @@ p {
 /*footer*/
 footer {
   background-color: #B8CCA3;
+}
+
+.site {
+  font-family: 'Raleway' sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5px;
 }
 
 .soc-med {
