@@ -101,7 +101,7 @@ a:hover {
   padding-top: 10px;
 }
 
-/*main*/
+/*main Home*/
 
 .container {
   display: grid;
@@ -159,6 +159,66 @@ p {
 main {
   padding-bottom: 5px;
 }
+
+/*main Food*/
+
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+ 
+  align-content: space-around;
+  padding: 10px 0;
+  border: 8px solid transparent;
+  margin: 10px 0;
+}
+
+.round {
+  border-radius: 50%;
+  max-height: 180px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.container2 article  ul{
+  padding-bottom: 20px;
+}
+.container2 article div {
+  padding-bottom: 20px;
+}
+
+/*.salads {
+  grid-column:1;
+}
+
+.ethnic {
+  grid-column: 2;
+  grid-row: 1;
+  }
+
+img .pizza {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+img .chicken {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.meat {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.dessert {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+img .cookie {
+  grid-column: 4;
+  grid-row: 2;
+}*/
 
 /*footer*/
 footer {
