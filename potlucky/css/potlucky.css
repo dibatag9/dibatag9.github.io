@@ -54,6 +54,9 @@ h3 {
   margin: 0px;
 }
 /*header*/
+header {
+  margin-bottom: 25px;
+}
 
 nav ul {
   list-style-type: none;
@@ -180,7 +183,7 @@ main {
   align-content: space-around;
   padding: 10px 0;
   border: 8px solid transparent;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .round {
@@ -189,6 +192,9 @@ main {
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
 }
 
+.container2 article {
+  margin: 0 5px;
+}
 .container2 article  ul{
   padding-bottom: 20px;
 }
@@ -233,7 +239,7 @@ img .cookie {
 /*footer*/
 footer {
   background-color: #B8CCA3;
-  margin-top: 5px;;
+  margin-top: 25px;;
 }
 
 .site {
