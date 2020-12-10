@@ -87,8 +87,8 @@ nav ul li a {
 }*/
 
 a:hover {
-  color:yellow;
-  background: #000000;
+  color:#B8CCA3;
+  background: white;
   font-size: 30px;
 }
 
