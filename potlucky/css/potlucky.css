@@ -29,7 +29,7 @@ h6 {
 
 p, li {
   font-family: 'Raleway', sans-serif;
-  color: #291600;
+ 
   font-size: 16px;
 }
 
@@ -73,32 +73,38 @@ li {
 nav ul li a {
   display: block;
   color: white;
-  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
   text-align: center;
-  padding: 16px;
+  padding: 10px 0;
   background-color: transparent;
   text-decoration: none;
 }
 
 
-a:visited {
+/*a:visited {
   color: #291600
-}
+}*/
 
 a:hover {
-  color: #B8CCA3;
+  color:yellow;
   background: #000000;
-  font-size: 125%;
+  font-size: 30px;
 }
 
 
 
 .logo {
+  max-height: 200px;
   display: block;
-  margin-left: auto;
+ /* margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding-top: 10px;
+  padding-top: 10px;*/
+  position: absolute;
+  left: 125px;
+  top: 40px;
+  z-index: 1;
 }
 
 /*main Home*/
@@ -156,6 +162,10 @@ p {
   color: #291600;
   text-align: center;
 }
+.wait {
+  padding: 15px 0;
+}
+
 main {
   padding-bottom: 5px;
 }
