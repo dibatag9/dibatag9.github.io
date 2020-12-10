@@ -9,6 +9,7 @@ footer {
 
 header, footer {
   border: 1px solid #291600;
+  border-radius: 10px;
 }
 
 html {
@@ -29,7 +30,6 @@ h6 {
 
 p, li {
   font-family: 'Raleway', sans-serif;
- 
   font-size: 16px;
 }
 
@@ -78,6 +78,7 @@ nav ul li a {
   color: white;
   font-size: 24px;
   font-weight: bold;
+  text-shadow: 1px 1px #291600;
   text-align: center;
   padding: 10px 0;
   background-color: transparent;
@@ -162,9 +163,13 @@ article ul li,
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-  color: #291600;
   text-align: center;
 }
+
+article p {
+  color: #291600;
+}
+
 .wait {
   padding: 15px 0;
 }
@@ -239,7 +244,9 @@ img .cookie {
 /*footer*/
 footer {
   background-color: #B8CCA3;
-  margin-top: 25px;;
+  margin-top: 25px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .site {
@@ -252,12 +259,15 @@ footer {
 .soc-med {
   padding-top: 10px;
   text-align: center;
-
 }
 
+.contact {
+  font-weight: bold;
+  text-shadow: 1px 1px #291600;
+}
 
 .copyright {
   text-align: center;
-  font-size: .75rem;
-  padding-bottom: 10px;
+  font-size: 14px;
+  padding: 20px 0;
 }
