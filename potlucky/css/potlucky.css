@@ -56,6 +56,16 @@ h3 {
 /*header*/
 header {
   margin-bottom: 25px;
+  background: #B8CCA3;
+}
+
+.logo {
+  float: left;
+  max-width: 160px;
+}
+
+nav {
+  max-width: 800px;
 }
 
 nav ul {
@@ -64,8 +74,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #B8CCA3;
-  
+ 
 }
 
 li {
@@ -80,7 +89,7 @@ nav ul li a {
   font-weight: bold;
   text-shadow: 1px 1px #291600;
   text-align: center;
-  padding: 10px 0;
+  margin: 10px 0;
   background-color: transparent;
   text-decoration: none;
 }
@@ -96,20 +105,18 @@ a:hover {
   font-size: 30px;
 }
 
-
+/*
 
 .logo {
   max-height: 200px;
   display: block;
- /* margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding-top: 10px;*/
-  position: absolute;
-  left: 125px;
-  top: 40px;
+  padding-top: 10px;
+  
   z-index: 1;
-}
+}*/
 
 /*main Home*/
 
