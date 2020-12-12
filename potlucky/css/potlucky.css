@@ -22,20 +22,22 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: 'Shadows Into Light', sans-serif;
   text-align: center;
 }
 
-p, li {
+h5, p, li {
   font-family: 'Raleway', sans-serif;
+}
+
+li {
   font-size: 16px;
 }
 
 h1 {
   font-size: 60px;
-  color: #B8CCA3;
+  color: #86a861;
   margin: 10px 0px;
   text-shadow:1px 1px gray;
 }
@@ -44,19 +46,36 @@ h2 {
   font-size: 48px;
   text-align: center;
   margin: 5px 0 0 0;
-  color: #B8CCA3;
+  color: #86a861;
 }
 
 h3 {
   font-size: 36px;
   color: #291600;
   padding: 0px;
-  margin: 0px;
+  margin: 0 auto;
 }
+h4 {
+  font-size: 30px;
+  color: #86a861;
+  text-shadow:1px 1px #291600;
+  font-weight: normal;
+  margin: 3px 0 0 0;
+}
+
+article.quest p.q {
+  font-size: 24px;
+  background: #86a861;
+  color: #291600;
+  padding: 3px;
+  font-weight: bold;
+  margin: 0;
+}
+
 /*header*/
 header {
   margin-bottom: 25px;
-  background: #B8CCA3;
+  background: #86a861;
 }
 
 .logo {
@@ -99,8 +118,8 @@ nav ul li a {
   color: #291600
 }*/
 
-a:hover {
-  color:#B8CCA3;
+header nav ul a:hover {
+  color:#86a861;
   background: white;
   font-size: 30px;
 }
@@ -124,7 +143,7 @@ a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding-top: 10px;
+  padding: 20px 0;
 }
 
 .time,
@@ -167,15 +186,13 @@ article ul {
 }
 
 article ul li,
-p {
+ {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   text-align: center;
 }
 
-article p {
-  color: #291600;
-}
+
 
 .wait {
   padding: 15px 0;
@@ -214,46 +231,131 @@ main {
   padding-bottom: 20px;
 }
 
-/*.salads {
-  grid-column:1;
+/*FAQ page*/
+
+.big {
+  max-width: 960px;
+  display:grid;
+  grid-template-columns: 2% 35% 2% 50% 2%;
+  column-gap: 40px;
+  background: #ffffff;
+}
+  div .container3 {
+    grid-column: 2;
+   padding-left: 10px;
+ }
+
+ article p {
+  font-family: 'Raleway', sans-serif;
+  color: #291600;
+  font-size: 16px;
+  text-align: justify;
 }
 
-.ethnic {
-  grid-column: 2;
-  grid-row: 1;
-  }
 
-img .pizza {
-  grid-column: 2;
-  grid-row: 2;
+
+h5 {
+  background:#86a861;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  text-shadow:1px 1px #291600;
+  padding: 3px;
+  border: 1px solid #291600;
+  border-radius: 10px;
+  
 }
 
-img .chicken {
-  grid-column: 3;
-  grid-row: 1;
-}
 
-.meat {
-  grid-column: 3;
-  grid-row: 2;
-}
 
-.dessert {
+div .container4 {
+  display:grid;
   grid-column: 4;
-  grid-row: 1;
 }
 
-img .cookie {
-  grid-column: 4;
-  grid-row: 2;
-}*/
+
+
+.container4 .seek ul li {
+  font-size: 16px;
+
+}
+
+form {
+  margin: 0 auto;
+  width: 450px;
+  padding: 10px;
+  border: 1px solid #291600;
+  border-radius: 10px;
+  background: #86a861;
+  color: #ffffff;
+  
+  margin-top: 0px;
+  text-shadow:1px 1px #291600;
+}
+
+
+form li + li {
+  margin-top: .75em;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: inline-block;
+  width: 75px;
+  text-align: right;
+  font-family: 'Raleway', sans-serif;
+}
+
+input, textarea {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 3px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #291600;
+  border-radius: 10px;
+}
+
+button {
+  width: 180px;
+  font-size: 16px;
+  background: #ffffff;
+  color: #86a861;
+  font-weight: bold;
+  border: 1px solid #291600;
+  border-radius: 10px;
+  padding: 3px;
+}
+.button {
+float: left;
+
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 115px;
+}
+
+
+
 
 /*footer*/
 footer {
-  background-color: #B8CCA3;
+  background-color: #86a861;
   margin-top: 25px;
   color: #ffffff;
   text-align: center;
+  height: 100%;
 }
 
 .site {
@@ -266,6 +368,15 @@ footer {
 .soc-med {
   padding-top: 10px;
   text-align: center;
+  overflow: hidden;
+}
+
+.fb {
+  padding-right: 5px;
+}
+
+.twit {
+  padding-left: 5px;
 }
 
 .contact {
