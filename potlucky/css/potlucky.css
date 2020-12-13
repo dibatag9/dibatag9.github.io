@@ -36,34 +36,40 @@ li {
 }
 
 h1 {
-  font-size: 72px;
+  font-size: 84px;
   color: #86a861;
   margin: 10px 0px;
-  text-shadow:1px 1px gray;
+  text-shadow: 1px 1px #291600;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 55px;
   text-align: center;
   margin: 5px 0 0 0;
+  padding: 0;
   color: #86a861;
 }
 
+h3 {
+  font-size: 45px;
+  margin: 0 auto;
+}
+
 .container3 h3 {
-  font-size: 48px;
+  font-size: 45px;
   color: #291600;
   padding: 0;
   margin: 0 auto;
 }
 
 .container4 h3 {
-  font-size: 36px;
+  font-size: 45px;
   color: #291600;
   padding:0 0 30px 0;
   margin: 0 auto;
 }
 h4 {
-  font-size: 30px;
+  font-size: 35px;
   color: #86a861;
   text-shadow:1px 1px #291600;
   font-weight: normal;
@@ -86,8 +92,10 @@ header {
 }
 
 .logo {
+  padding-top: 15px;
+  padding-left: 20px;
   float: left;
-  max-width: 160px;
+ 
 }
 
 nav {
@@ -263,7 +271,7 @@ main {
 h5 {
   background:#86a861;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 25px;
   text-align: center;
   text-shadow:1px 1px #291600;
   padding: 3px;
