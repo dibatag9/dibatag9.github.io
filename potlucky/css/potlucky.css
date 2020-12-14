@@ -37,7 +37,6 @@ h1 {
   font-size: 95px;
   color: #719150;
   margin: 10px 0 -8px 0;
-  
 }
 
 h2 {
@@ -91,6 +90,7 @@ header {
   padding-top: 10px;
   padding-left: 10px;
   float: left;
+  height: 180px;
 }
 
 nav {
@@ -123,6 +123,9 @@ header nav ul a:hover {
   transition: .5s ease-in;
 }
 
+.intro {
+  text-align: center;
+}
 /*main Home*/
 
 .container {
@@ -342,6 +345,10 @@ footer {
   overflow: hidden;
 }
 
+.soc-med img {
+  height: 30px;
+}
+
 .fb {
   padding-right: 5px;
 }
@@ -358,6 +365,6 @@ footer {
 
 .copyright {
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px 0;
 }
