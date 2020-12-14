@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light&display=swap');
 
-header,
-main,
-footer {
+header, main, footer {
   max-width: 960px;
   margin: 0 auto;
 }
@@ -16,78 +14,92 @@ html {
   background-color: white;
 }
 
-
-
-h1,
-h2,
-h3,
-h4,
-h6 {
-  font-family: 'Shadows Into Light', sans-serif;
+h1, h3, h4, h6 {
+  font-family: 'Shadows Into Light', cursive;
   text-align: center;
 }
 
-h5, p, li {
-  font-family: 'Raleway', sans-serif;
+h2, h5, p, li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-weight: lighter;
 }
 
 li {
   font-size: 16px;
+  text-align: center;
 }
 
 h1 {
-  font-size: 84px;
-  color: #86a861;
-  margin: 10px 0px;
-  text-shadow: 1px 1px #291600;
+  font-size: 95px;
+  color: #719150;
+  margin: 10px 0;
+  text-shadow: 1px 1px #666666;
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 64px;
   text-align: center;
-  margin: 5px 0 0 0;
-  padding: 0;
-  color: #86a861;
+  
+  margin: 5px 0;
 }
 
 h3 {
-  font-size: 45px;
+  font-size: 60px;
+  margin: 5px 0 0 0;
+  padding: 0;
+  color: #719150;
+}
+
+h4 {
+  font-size: 48px;
   margin: 0 auto;
 }
 
-.container3 h3 {
-  font-size: 45px;
+.container3 h4 {
   color: #291600;
   padding: 0;
+}
+
+.container4 h4 {
+  color: #291600;
+  padding-bottom: 30px;
   margin: 0 auto;
 }
 
-.container4 h3 {
-  font-size: 45px;
-  color: #291600;
-  padding:0 0 30px 0;
-  margin: 0 auto;
+h5 {
+  background: #719150;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: center;
+  padding: 8px;
+  margin: 3px 0 0 0;
+  border: 1px solid #291600;
+  border-radius: 10px;
 }
-h4 {
-  font-size: 35px;
-  color: #86a861;
-  text-shadow:1px 1px #291600;
+
+/*h5 {
+  font-size: 32px;
+  color: #719150;
+  text-shadow: 1px 1px #291600;
   font-weight: normal;
   margin: 3px 0 0 0;
 }
-
+*/
 
 /*header*/
 header {
   margin-bottom: 25px;
-  background: #86a861;
+  background: #719150;
 }
 
 .logo {
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 20px;
   float: left;
- 
 }
 
 nav {
@@ -100,12 +112,6 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
- 
-}
-
-li {
-  text-align: center;
- 
 }
 
 nav ul li a {
@@ -113,43 +119,27 @@ nav ul li a {
   color: white;
   font-size: 24px;
   font-weight: bold;
-  text-shadow: 1px 1px #291600;
+  /*text-shadow: 1px 1px #291600;*/
   text-align: center;
   margin: 10px 0;
   background-color: transparent;
   text-decoration: none;
 }
 
-
-/*a:visited {
-  color: #291600
-}*/
-
 header nav ul a:hover {
-  color:#86a861;
+  color: #719150;
   background: white;
   font-size: 30px;
 }
 
-/*
-
-.logo {
-  max-height: 200px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  padding-top: 10px;
-  
-  z-index: 1;
-}*/
-
 /*main Home*/
+
+
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  column-gap: 20px;
   padding: 20px 0;
 }
 
@@ -181,10 +171,6 @@ article img {
 }
 
 
-article p {
-  margin-bottom: 5px;
-}
-
 article ul {
   list-style-type: none;
   padding: 0;
@@ -192,13 +178,10 @@ article ul {
   margin: 0;
 }
 
-article ul li  {
-  font-family: 'Raleway', sans-serif;
+article ul li {
   font-size: 20px;
   text-align: center;
 }
-
-
 
 .wait {
   padding: 15px 0;
@@ -213,8 +196,8 @@ main {
 .container2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 30px;
- 
+  column-gap: 30px;
+
   align-content: space-around;
   padding: 10px 0;
   border: 8px solid transparent;
@@ -230,9 +213,11 @@ main {
 .container2 article {
   margin: 0 5px;
 }
-.container2 article  ul{
+
+.container2 article ul {
   padding-bottom: 20px;
 }
+
 .container2 article div {
   padding-bottom: 20px;
 }
@@ -241,49 +226,34 @@ main {
 
 .big {
   max-width: 960px;
-  display:grid;
+  display: grid;
   grid-template-columns: 2% 35% 2% 50% 2%;
   column-gap: 40px;
   background: #ffffff;
 }
-  div .container3 {
-    grid-column: 2;
-   padding-left: 10px;
- }
 
- article p {
-  font-family: 'Raleway', sans-serif;
-  color: #291600;
-  font-size: 16px;
-  text-align: justify;
+div .container3 {
+  grid-column: 2;
+  padding-left: 10px;
 }
 
-
-
-h5 {
-  background:#86a861;
-  color: #ffffff;
-  font-size: 25px;
-  text-align: center;
-  text-shadow:1px 1px #291600;
-  padding: 3px;
-  border: 1px solid #291600;
-  border-radius: 10px;
+article p {
   
+  color: #291600;
+  font-size: 20px;
+  text-align: justify;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
-
-
 
 div .container4 {
-  display:grid;
+  display: grid;
   grid-column: 4;
 }
 
-
-
 .container4 .seek ul li {
   font-size: 16px;
-
 }
 
 form {
@@ -292,15 +262,13 @@ form {
   padding: 10px;
   border: 1px solid #291600;
   border-radius: 10px;
-  background: #86a861;
+  background: #719150;
   color: #ffffff;
+  margin-top: 0;
   
-  margin-top: 0px;
-  text-shadow:1px 1px #291600;
 }
 
-
-form li + li {
+form li+li {
   margin-top: .75em;
 }
 
@@ -314,11 +282,14 @@ label {
   display: inline-block;
   width: 75px;
   text-align: right;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  padding-right: 10px;
 }
 
-input, textarea {
-  font-family: 'Raleway', sans-serif;
+input,
+textarea {
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding: 5px 10px;
   margin: 3px;
@@ -329,18 +300,19 @@ input, textarea {
 }
 
 button {
-  width: 180px;
-  font-size: 16px;
+  width: 200px;
+  font-size: 20px;
   background: #ffffff;
-  color: #86a861;
+  color: #719150;
   font-weight: bold;
+  margin: 3px 2px;
   border: 1px solid #291600;
   border-radius: 10px;
-  padding: 3px;
+  padding: 4px;
 }
-.button {
-float: left;
 
+.button {
+  float: left;
 }
 
 textarea {
@@ -352,12 +324,9 @@ textarea {
   padding-left: 115px;
 }
 
-
-
-
 /*footer*/
 footer {
-  background-color: #86a861;
+  background-color: #719150;
   margin-top: 25px;
   color: #ffffff;
   text-align: center;
@@ -365,7 +334,7 @@ footer {
 }
 
 .site {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 16px;
   padding-top: 5px;
