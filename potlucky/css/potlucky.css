@@ -241,7 +241,6 @@ article p {
   
   color: #291600;
   font-size: 20px;
-  text-align: justify;
   padding-bottom: 5px;
   margin-bottom: 10px;
   margin-top: 5px;
@@ -291,6 +290,7 @@ input,
 textarea {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  font-weight: bold;
   padding: 5px 10px;
   margin: 3px;
   width: 300px;
@@ -357,7 +357,7 @@ footer {
 .contact {
   font-size: 16px;
   font-weight: bold;
-  text-shadow: 1px 1px #291600;
+  
 }
 
 .copyright {
