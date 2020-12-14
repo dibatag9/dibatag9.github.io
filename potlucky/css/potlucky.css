@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light&display=swap');
 
-html {
-  background-color: #291600;
-}
 
 header, main, footer {
   max-width: 960px;
