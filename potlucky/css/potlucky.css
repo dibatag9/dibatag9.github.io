@@ -123,9 +123,7 @@ header nav ul a:hover {
   transition: .5s ease-in;
 }
 
-.intro {
-  text-align: center;
-}
+
 /*main Home*/
 
 .container {
@@ -281,6 +279,7 @@ label {
   width: 75px;
   text-align: right;
   font-family: 'Open Sans', sans-serif;
+  color: #ffff4c;
   font-size: 20px;
   padding-right: 10px;
 }
