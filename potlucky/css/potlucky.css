@@ -37,7 +37,7 @@ h1 {
   font-size: 95px;
   color: #719150;
   margin: 10px 0 -8px 0;
-  text-shadow: 1px 1px #666666;
+  
 }
 
 h2 {
@@ -191,16 +191,23 @@ main {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 30px;
 
-  align-content: space-around;
+  
   padding: 10px 0;
   border: 8px solid transparent;
   margin: 20px 0;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid transparent;
+  text-align: center;
 }
 
 .round {
   border-radius: 50%;
   max-height: 180px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  
 }
 
 .container2 article {
