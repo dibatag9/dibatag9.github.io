@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Shadows+Into+Light&display=swap');
 
+html {
+  background-color: #291600;
+}
+
 header, main, footer {
   max-width: 960px;
   margin: 0 auto;
@@ -10,8 +14,8 @@ header, footer {
   border-radius: 10px;
 }
 
-html {
-  background-color: white;
+body {
+  background-color: #ffffff;
 }
 
 h1, h3, h4, h6 {
@@ -35,15 +39,15 @@ li {
 h1 {
   font-size: 95px;
   color: #719150;
-  margin: 10px 0;
+  margin: 10px 0 -8px 0;
   text-shadow: 1px 1px #666666;
 }
 
 h2 {
   font-size: 64px;
   text-align: center;
-  
-  margin: 5px 0;
+  padding-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 
 h3 {
@@ -81,24 +85,16 @@ h5 {
   border-radius: 10px;
 }
 
-/*h5 {
-  font-size: 32px;
-  color: #719150;
-  text-shadow: 1px 1px #291600;
-  font-weight: normal;
-  margin: 3px 0 0 0;
-}
-*/
 
 /*header*/
 header {
-  margin-bottom: 25px;
+ 
   background: #719150;
 }
 
 .logo {
   padding-top: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
   float: left;
 }
 
