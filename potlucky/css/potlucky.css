@@ -65,7 +65,7 @@ h4 {
 
 .container4 h4 {
   color: #291600;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin: 0 auto;
 }
 
@@ -90,7 +90,6 @@ header {
   padding-top: 10px;
   padding-left: 10px;
   float: left;
-  height: 180px;
 }
 
 nav {
@@ -224,7 +223,7 @@ main {
 .big {
   max-width: 960px;
   display: grid;
-  grid-template-columns: 2% 35% 2% 50% 2%;
+  grid-template-columns: 2% 35% 1% 45% 2%;
   column-gap: 40px;
   background: #ffffff;
 }
@@ -254,7 +253,7 @@ div .container4 {
 
 form {
   margin: 0 auto;
-  width: 450px;
+  width: 400px;
   padding: 10px;
   border: 1px solid #291600;
   border-radius: 10px;
